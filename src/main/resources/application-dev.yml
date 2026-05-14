@@ -1,0 +1,8 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+app:
+  security:
+    import-password: ${IMPORT_PASSWORD:dev-password-change-me}

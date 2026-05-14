@@ -1,0 +1,57 @@
+# Build output
+target/
+out/
+build/
+
+# Maven local/generated files
+.flattened-pom.xml
+dependency-reduced-pom.xml
+
+# Java runtime artifacts
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Logs
+*.log
+logs/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-*.local.yml
+application-*.local.yaml
+
+# Embedded database files
+*.mv.db
+*.trace.db
+*.lock.db
+
+# Temporary/generated import files
+tmp/
+temp/
+uploads/
+*.tmp
+*.temp
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
