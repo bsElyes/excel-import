@@ -43,3 +43,4 @@ app:
     async-max-pool-size: 4
     async-queue-capacity: 20
     async-await-termination-seconds: 30
+    job-store: jdbc
